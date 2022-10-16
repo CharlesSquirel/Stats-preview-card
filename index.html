@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Frontend Mentor | Stats preview card component</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section>
+                <picture>
+                    <source media="(min-width:1440px)" id="img_desktop" srcset="image-header-desktop.jpg" />
+                    <source media="(max-width:1439px)" id="img_mobile" srcset="image-header-mobile.jpg" />
+                    <img id="img" src="image-header-mobile.jpg" alt="Working women">
+                </picture>
+                <div class="mask"></div>
+                <article>
+                    <h1>Get <span class="insight">insights</span> that help your business grow.</h1>
+                    <p class="article_paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+                    <div class="article_datas">
+                        <div class="article_data_10">
+                            <p class="article_data_paragraph1">10k+</p>
+                            <p class="article_data_paragraph2">companies</p>
+                        </div>
+                        <div class="article_data_314">
+                            <p class="article_data_paragraph1">314</p>
+                            <p class="article_data_paragraph2">templates</p>
+                        </div>
+                        <div class="article_data_12">
+                            <p class="article_data_paragraph1">12m+</p>
+                            <p class="article_data_paragraph2">queries</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
 </html>
