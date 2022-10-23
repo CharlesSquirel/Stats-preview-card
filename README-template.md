@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@CharlesSquirel]
-- GitHub - [@CharlesSquirel]
+- Frontend Mentor - @CharlesSquirel
+- GitHub - @CharlesSquirel
