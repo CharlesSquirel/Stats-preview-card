@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [(https://github.com/CharlesSquirel/Stats-preview-card)](https://your-solution-url.com)
+- Solution URL: https://github.com/CharlesSquirel/Stats-preview-card
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
