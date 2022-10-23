@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
@@ -15,26 +15,24 @@
     <body>
         <main>
             <section>
-                <picture>
-                    <source media="(min-width:1440px)" id="img_desktop" srcset="/image-header-desktop.jpg" />
-                    <source media="(max-width:1439px)" id="img_mobile" srcset="/image-header-mobile.jpg" />
-                    <img id="img" src="/image-header-mobile.jpg" alt="Working women">
+                <picture class="picture">
+                    <source media="(min-width:1439px)" id="img_desktop" srcset="image-header-desktop.jpg" aria-hidden="true"/>
+                    <img id="img" src="image-header-mobile.jpg" alt="" aria-hidden="true">
                 </picture>
-                <div class="mask"></div>
                 <article>
                     <h1>Get <span class="insight">insights</span> that help your business grow.</h1>
                     <p class="article_paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
                     <div class="article_datas">
-                        <div class="article_data_10">
+                        <div>
                             <p class="article_data_paragraph1">10k+</p>
                             <p class="article_data_paragraph2">companies</p>
                         </div>
-                        <div class="article_data_314">
+                        <div>
                             <p class="article_data_paragraph1">314</p>
                             <p class="article_data_paragraph2">templates</p>
                         </div>
-                        <div class="article_data_12">
-                            <p class="article_data_paragraph1">12m+</p>
+                        <div>
+                            <p class="article_data_paragraph1">12M+</p>
                             <p class="article_data_paragraph2">queries</p>
                         </div>
                     </div>
